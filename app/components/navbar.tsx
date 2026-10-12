@@ -28,7 +28,7 @@ export default function Navbar() {
                     </span>
                     <span>
                         <span className="block text-lg font-extrabold tracking-tight">
-                            Savory<span className="text-orange-600">House</span>
+                            ጣፋጭ<span className="text-orange-600">House</span>
                         </span>
                         <span className="block text-xs text-stone-500">
                             Good food, good moments
@@ -42,8 +42,8 @@ export default function Navbar() {
                             key={link.href}
                             href={link.href}
                             className={`text-sm font-medium transition ${pathname === link.href
-                                    ? "text-orange-600"
-                                    : "text-stone-600 hover:text-orange-600"
+                                ? "text-orange-600"
+                                : "text-stone-600 hover:text-orange-600"
                                 }`}
                         >
                             {link.label}

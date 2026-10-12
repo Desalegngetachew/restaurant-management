@@ -4,10 +4,16 @@ import Navbar from "./components/navbar";
 import Footer from "./components/Footer";
 import { CartProvider } from "@/lib/cart-context";
 
+
 export const metadata: Metadata = {
-  title: "SavoryHouse | Fresh Food, Happy Moments",
+  title: "Wenbeya Restaurant | Good Food, Better Together",
   description:
-    "Explore our menu, order your favorite meals, and enjoy fresh food from SavoryHouse Restaurant.",
+    "Discover delicious meals at Wenbeya Restaurant. Explore our menu, order your favorite food, and enjoy every bite.",
+  icons: {
+    icon: "/wenbeya-logo.png",
+    shortcut: "/wenbeya-logo.png",
+    apple: "/wenbeya-logo.png",
+  },
 };
 
 export default function RootLayout({
