@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-[#fcfbf8] text-stone-900 antialiased">
+      <body className="min-h-screen bg-[#FCFBF8] text-stone-900 antialiased">
         <CartProvider>
           <Navbar />
           <main className="min-h-[60vh]">{children}</main>
